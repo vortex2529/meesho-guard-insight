@@ -20,7 +20,6 @@ interface MetricCardProps {
   icon: React.ReactNode;
   index: number;
 }
-
 const MetricCard: React.FC<MetricCardProps> = ({ title, value, change, trend, icon, index }) => {
   const trendColor = trend === 'up' ? 'text-success' : trend === 'down' ? 'text-danger' : 'text-muted-foreground';
   
