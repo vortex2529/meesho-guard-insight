@@ -18,7 +18,6 @@ import {
 } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-
 const fraudPreventionData = [
   { month: 'Jan', prevented: 45, attempted: 67 },
   { month: 'Feb', prevented: 52, attempted: 73 },
